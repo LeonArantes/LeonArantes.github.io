@@ -1,0 +1,72 @@
+/*KEY FRAMES*/
+
+@keyframes txt {
+    0% {
+        transform: translate(-500px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes input {
+    0% {
+        transform: translateY(-1000%);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes card {
+
+    0% {
+        transform: scale3d(20, 0, 0);
+    }
+    35% {
+        transform: scale3d(1, .75, 1);
+    }
+    45% {
+        transform: scale3d(1, 1, 1);
+    }
+    60% {
+        transform: scale3d(1, .8, 1);
+    }
+    75% {
+        transform: scale3d(1, .95, 1);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes card-hover {
+    0%, 100% {
+        transform: scale3d(1, 1, 1);
+    }
+    35% {
+        transform: scale3d(1.25, .75, 1);
+    }
+    45% {
+        transform: scale3d(.75, 1, 1);
+    }
+    60% {
+        transform: scale3d(1.2, .8, 1);
+    }
+    75% {
+        transform: scale3d(1.05, .95, 1);
+    }
+
+
+}
+
+@keyframes bg-card {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
