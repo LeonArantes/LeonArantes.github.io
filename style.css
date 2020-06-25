@@ -126,12 +126,12 @@ section.section-register{
 
 .card-front {
    transform: perspective(600px) rotateY(0deg);
-    background: url("/PayGo-javascript/src/images/card-default-front.png");
+    background: url("card-default-front.png");
 }
 
 .card-back {
     transform: perspective(600px) rotateY(180deg);
-       background: url("/PayGo-javascript/src/images/card-default-back.png");
+       background: url("card-default-back.png");
 
 }
 

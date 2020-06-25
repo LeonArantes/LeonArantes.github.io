@@ -99,13 +99,13 @@ class validade_card {
             this.valueChange = this.selectCollor.options[this.selectCollor.selectedIndex].value;
 
 
-            this.valor = "/PayGo-javascript/src/images/card-" + this.valueChange + "-front.png"
+            this.valor = "card-" + this.valueChange + "-front.png"
             this.card_front.style.background = "url(" + this.valor + ")";
             this.card_front.style.backgroundPosition = "center";
             this.card_front.style.backgroundRepeat = "no-repeat";
             this.card_front.style.backgroundSize = "100% 100%";
 
-            this.valor2 = "/PayGo-javascript/src/images/card-" + this.valueChange + "-back.png"
+            this.valor2 = "card-" + this.valueChange + "-back.png"
             this.card_back.style.background = "url(" + this.valor2 + ")";
             this.card_back.style.backgroundPosition = "center";
             this.card_back.style.backgroundRepeat = "no-repeat";
