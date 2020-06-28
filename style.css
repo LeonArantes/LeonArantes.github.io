@@ -11,7 +11,12 @@ html,body {
     background-color: #EAE6E6;
 }
 
-input {
+body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+input *{
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
