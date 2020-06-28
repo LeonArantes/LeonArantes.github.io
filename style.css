@@ -11,17 +11,6 @@ html,body {
     background-color: #EAE6E6;
 }
 
-body {
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-}
-
-input *{
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
-}
-
 .c-blue {
     color: #70A0E8;
 }
