@@ -11,6 +11,12 @@ html,body {
     background-color: #EAE6E6;
 }
 
+input {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 .c-blue {
     color: #70A0E8;
 }
